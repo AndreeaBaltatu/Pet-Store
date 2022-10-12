@@ -1,7 +1,7 @@
 {
   "/api/*": "/$1",
-  "/products": "/products?_page=1",
-  "/products?_page=:page": "/products?_page=:page&_limit=50",
+  "/dogproducts": "/dogproducts?_page=1",
+  "/dogproducts?_page=:page": "/dogproducts?_page=:page&_limit=50",
   "/users*": "/600/users$1",
-  "/products*": "/664/products$1"
+  "/dogproducts*": "/664/dogproducts$1"
 }
