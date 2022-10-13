@@ -7,7 +7,7 @@
   list-style-type: none;
   font-size: 20px;
   margin: 0 auto;
-  background-color: rgba(92, 227, 62, 0.526);
+  background-color: rgba(55, 255, 11, 0.526);
   border-radius: 20px;
   padding: 20px;
   width: 80%;
@@ -23,6 +23,7 @@
   font-size: 30px;
   margin-top: -6%;
 }
+
 .removeunderline {
   text-decoration: none;
 }

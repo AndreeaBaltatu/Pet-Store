@@ -99,4 +99,7 @@
     height: 22rem;
     text-align: center;
   }
+  .adopt_page {
+    background-image: none;
+  }
 }
