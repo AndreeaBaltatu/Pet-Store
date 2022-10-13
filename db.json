@@ -235,13 +235,33 @@
   "MICESPRODUCTS": [],
   "ADOPTION": [
     {
-      "id": 1,
+      "id": 22,
       "title": "Miky",
       "descriere": "Bichon Maltese",
       "varsta": "3",
-      "poza": "https://i.imgur.com/GJMvQQi.png",
+      "poza": "https://www.pupvine.com/wp-content/uploads/2021/08/Bichon-Frise-Colors-Is-White-Really-the-Only-Option.jpg",
       "pret": 15,
       "greutate": "6 kg ",
+      "categorie": "caine"
+    },
+    {
+      "id": 23,
+      "title": "Bobby",
+      "descriere": "Unknown",
+      "varsta": "7",
+      "poza": "https://ziarmm.ro/wp-content/uploads/2015/01/caine-maidanez.jpg",
+      "pret": 15,
+      "greutate": "7 kg ",
+      "categorie": "caine"
+    },
+    {
+      "id": 24,
+      "title": "Toby",
+      "descriere": "Husky",
+      "varsta": "3",
+      "poza": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F47%2F2021%2F06%2F14%2Fsiberian-husky-puppy-grass-146571433-2000.jpg",
+      "pret": 15,
+      "greutate": "10 kg ",
       "categorie": "caine"
     }
   ]

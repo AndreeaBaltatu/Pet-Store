@@ -3,5 +3,10 @@
   "/dogproducts": "/dogproducts?_page=1",
   "/dogproducts?_page=:page": "/dogproducts?_page=:page&_limit=50",
   "/users*": "/600/users$1",
-  "/dogproducts*": "/664/dogproducts$1"
+  "/dogproducts*": "/664/dogproducts$1",
+
+  "/adoption": "/adoption?_page=1",
+  "/adoption?_page=:page": "/adoption?_page=:page&_limit=50",
+
+  "/adoption*": "/664/adoption$1"
 }

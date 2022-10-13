@@ -14,7 +14,7 @@ export function AnimalCard({ animal }) {
       <h2 className={styles["ProductTitle"]}>{animal.title} </h2>
       <div className={styles["ProductPrice"]}>Pret: {animal.pret} lei</div>
       <div className={styles["ProductGramaj"]}>Greutate: {animal.greutate}</div>
-      <button className={styles["addToCart"]}>Add to cart</button>
+      <button className={styles["addToCart"]}>Adopt</button>
     </article>
   );
 }

@@ -7,7 +7,7 @@ export function Adoption() {
   const [animals, setAnimals] = useState(null);
 
   useEffect(() => {
-    fetch("http:localhost:3000/api/adoption?_limit=30")
+    fetch("http://localhost:3000/api/adoption?_limit=30")
       .then((res) => res.json())
       .then((data) => {
         setAnimals(data);
@@ -19,7 +19,7 @@ export function Adoption() {
 
   return (
     <>
-      <section className={styles["product_page"]}>
+      <section className={styles["adopt_page"]}>
         <div className={styles["filterssection"]}>
           <p>Filter after:</p>
           <div className={styles["filters"]}>

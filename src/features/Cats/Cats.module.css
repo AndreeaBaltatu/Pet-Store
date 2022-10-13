@@ -6,13 +6,17 @@
 .product_page {
   display: inline-grid;
   grid-template-columns: [col-start] 20% [col-end col-start] 15% [col-end];
-  margin: 50px;
+  margin: 4rem;
   /* grid-template-columns: [first] 40% [line2] 600px; */
 }
 .filterssection {
   width: 20rem;
   gap: 20px;
   text-align: center;
+  background-image: url("https://i.imgur.com/jXFELg8.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 10%;
 }
 .filters {
   display: flex;
@@ -41,6 +45,8 @@
   border: 1px solid rgb(191, 190, 190);
   width: 30%;
   align-self: center;
+  background-image: url("https://i.imgur.com/J8hNBS4.jpg");
+  background-size: cover;
 }
 .addToCart:hover {
   background-color: rgb(157, 185, 157);
@@ -59,4 +65,34 @@
   text-align: center;
   padding: 0 20px 0 0;
   margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .product_page {
+    display: flex;
+    flex-direction: column;
+  }
+  .product_list {
+    display: flex;
+    flex-direction: column;
+  }
+  .filterssection {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px 0;
+  }
+  .filters {
+    display: flex;
+    flex-direction: row;
+  }
+  .product_box {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    border: 1px solid rgb(210, 208, 208);
+    width: 17rem;
+    height: 22rem;
+    text-align: center;
+  }
 }
