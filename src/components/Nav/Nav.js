@@ -29,6 +29,11 @@ export function Nav() {
             SHOPPING CART
           </NavLink>
         </li>
+        <li>
+          <NavLink className={styles["removeunderline"]} to="/shopping">
+            ADMIN
+          </NavLink>
+        </li>
       </ul>
       <ul className={styles["navlist2"]}>
         <li>
@@ -41,21 +46,13 @@ export function Nav() {
             CATS
           </NavLink>
         </li>
-        <li>
-          <NavLink className={styles["removeunderline"]} to="/mices">
-            MICES
-          </NavLink>
-        </li>
+
         <li>
           <NavLink className={styles["removeunderline"]} to="/fishes">
             FISHES
           </NavLink>
         </li>
-        <li>
-          <NavLink className={styles["removeunderline"]} to="/reptiles">
-            REPTILES
-          </NavLink>
-        </li>
+
         <li>
           <NavLink className={styles["removeunderline"]} to="/adoption">
             ADOPT A PET
