@@ -11,28 +11,28 @@ export function Nav() {
           <img src="https://i.imgur.com/ViI4EeF.png" alt="logo"></img>
         </a>
         <li>
-          <NavLink className={styles["removeunderline"]} to="/account">
-            MY ACCOUNT
+          <NavLink className={styles["big"]} to="/account">
+            <big>🏠</big>
           </NavLink>
         </li>
         <li>
-          <NavLink className={styles["removeunderline"]} to="/contact">
-            CONTACT
+          <NavLink className={styles["big"]} to="/contact">
+            <big>📞</big>
           </NavLink>
         </li>
         <li>
-          <NavLink className={styles["removeunderline"]} to="/login">
-            LOG IN
+          <NavLink className={styles["big"]} to="/login">
+            <big>☻</big>
           </NavLink>
         </li>
         <li>
-          <NavLink className={styles["removeunderline"]} to="/shopping">
-            SHOPPING CART
+          <NavLink className={styles["big"]} to="/shopping">
+            <big> 🛒</big>
           </NavLink>
         </li>
         <li>
-          <NavLink className={styles["removeunderline"]} to="/shopping">
-            ADMIN
+          <NavLink className={styles["big"]} to="/shopping">
+            <big> 😀</big>
           </NavLink>
         </li>
       </ul>
@@ -55,7 +55,7 @@ export function Nav() {
         </li>
 
         <li>
-          <NavLink className={styles["adopt"]} to="/adoption">
+          <NavLink className={styles["removeunderline"]} to="/adoption">
             ADOPT A PET
           </NavLink>
         </li>

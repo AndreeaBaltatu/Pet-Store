@@ -75,6 +75,14 @@
   padding: 0 20px 0 0;
   margin-bottom: 30px;
 }
+.footer {
+  background-color: aqua;
+  display: grid;
+  grid-template-columns: repeat(2, 500px [col-start]);
+  padding: 50px;
+  justify-content: center;
+  align-items: center;
+}
 /*CSS FOR DOGPRODUCT DETAILS*/
 
 .detailsContainer {
@@ -82,7 +90,6 @@
   justify-content: column;
   margin: 0 auto;
   max-width: 50%;
-
   place-items: center;
   justify-content: center;
   gap: 20px;
@@ -91,7 +98,20 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding: 20px 0;
 }
+.buttons > button {
+  background-color: rgba(139, 249, 157, 0.39);
+  padding: 10px;
+  border: 1px outset black;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.buttons > button:hover {
+  background-color: #4caf50;
+  color: white;
+}
+
 .title {
   padding: 50px;
   place-self: center;
@@ -109,15 +129,13 @@
   text-align: center;
 }
 
-@media only screen and (max-width: 1600px) {
-  .product_list {
-    display: grid;
-    grid-template-columns: repeat(3, 5fr);
-    gap: 20px;
-  }
-}
-
 @media only screen and (max-width: 600px) {
+  .footer {
+    background-color: rgb(65, 199, 199);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
   .product_page {
     display: flex;
     flex-direction: column;
@@ -144,6 +162,55 @@
     border: 1px solid rgb(210, 208, 208);
     width: 17rem;
     height: 22rem;
+    text-align: center;
+  }
+
+  /*CSS FOR DOGPRODUCT DETAILS*/
+
+  .detailsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: column;
+    margin: 0 auto;
+    max-width: 50%;
+    place-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 0;
+    gap: 20px;
+  }
+  .buttons > button {
+    background-color: rgba(139, 249, 157, 0.39);
+    padding: 10px;
+    border: 1px outset black;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .buttons > button:hover {
+    background-color: #4caf50;
+    color: white;
+  }
+
+  .title {
+    padding: 20px;
+    place-self: center;
+    justify-self: center;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    font-size: 100%;
+  }
+  .productimage {
+    max-width: 50%;
+    place-self: center;
+    justify-self: center;
+    justify-content: center;
+    align-self: center;
     text-align: center;
   }
 }

@@ -43,10 +43,10 @@ export function ProductDetails() {
             <strong>Gramaj: </strong> {dogproduct.gramaj}
           </p>
           <p className={styles["buttons"]}>
-            <button>Adauga in cos</button>
-            <button>Scrie o recenzie despre produs</button>
-            <button>Sterge Produs</button>
-            <button>Editeaza Produs</button>
+            <button>Adauga in cos 🛒</button>
+            <button>Scrie o recenzie ✎</button>
+            <button>Sterge Produs 🗑</button>
+            <button>Editeaza Produs ✎</button>
           </p>
         </div>
       </section>

@@ -47,6 +47,14 @@ export function Dogs() {
           ))}
         </div>
       </section>
+      <footer className={styles["footer"]}>
+        <div>Recenzii</div>
+        <div>Facebook</div>
+        <div>Instagram</div>
+        <div>Protectia consumatorilui</div>
+        <div>Ofera un voucher cadou</div>
+        <div>Politica Cookiuri</div>
+      </footer>
     </>
   );
 }
