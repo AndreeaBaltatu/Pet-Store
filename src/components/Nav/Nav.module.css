@@ -1,20 +1,36 @@
-.navlist1 {
-  color: red;
-  display: flex;
-  flex-direction: row;
-  gap: 1%;
-  justify-content: center;
+* {
+  margin: 0;
+  margin-top: 0;
+  padding: 0;
+}
+.nav {
+  margin: 0;
   list-style-type: none;
-  font-size: 20px;
-  margin: 0 auto;
   background-image: url("https://i.imgur.com/d91A3OD.png");
   background-size: contain;
-  border-radius: 20px;
-  padding: 20px;
-  width: 80%;
-  font-weight: bolder;
+  display: block;
+}
+.navlist1 {
+  justify-self: flex-end;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  padding: 20px 0 0 0;
+}
+.navlist2 {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 0 0 20px 0;
+  font-size: 2rem;
 }
 
+a > img {
+  margin: 0;
+  justify-self: flex-start;
+}
+/* 
 .navlist2 {
   color: red;
   display: flex;
@@ -42,42 +58,43 @@
 
 .logo {
   margin-right: auto;
-}
+} */
 
 @media only screen and (max-width: 720px) {
   * {
     margin: 0;
     margin-top: 0;
+    padding: 0;
   }
-
-  .navlist1 {
-    width: 90%;
-    color: red;
-    display: flex;
-    flex-direction: row;
-    gap: 1%;
-    list-style-type: none;
-    font-size: 1rem;
-    background-color: rgba(57, 126, 41, 0.526);
-    padding: 20px;
-    overflow: hidden;
+  .nav {
     margin: 0;
-    border-radius: 0;
-  }
-
-  .navlist2 {
-    color: red;
-    display: flex;
-    flex-direction: row;
-    width: 80%;
     list-style-type: none;
-    font-size: 15px;
-    gap: 2%;
-    margin: 0px;
+    background-image: url("https://i.imgur.com/d91A3OD.png");
+    background-size: contain;
+    display: block;
+  }
+  .navlist1 {
+    margin: 0;
+    justify-self: flex-start;
+    gap: 20px;
+    display: flex;
+    flex-wrap: no-wrap;
+    font-size: 10px;
+    justify-content: space-around;
+    list-style-type: none;
+  }
+  .navlist2 {
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    flex-wrap: no-wrap;
+    font-size: 100%;
+    justify-content: space-around;
   }
 
-  img {
-    width: 60%;
-    height: 100%;
+  a > img {
+    margin: 0;
+    max-width: 90%;
   }
 }

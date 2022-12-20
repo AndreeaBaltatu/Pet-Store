@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+
 import styles from "./Nav.module.css";
 
 export function Nav() {
@@ -54,7 +55,7 @@ export function Nav() {
         </li>
 
         <li>
-          <NavLink className={styles["removeunderline"]} to="/adoption">
+          <NavLink className={styles["adopt"]} to="/adoption">
             ADOPT A PET
           </NavLink>
         </li>

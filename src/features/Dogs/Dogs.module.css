@@ -75,6 +75,39 @@
   padding: 0 20px 0 0;
   margin-bottom: 30px;
 }
+/*CSS FOR DOGPRODUCT DETAILS*/
+
+.detailsContainer {
+  display: flex;
+  justify-content: column;
+  margin: 0 auto;
+  max-width: 50%;
+
+  place-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.title {
+  padding: 50px;
+  place-self: center;
+  justify-self: center;
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+}
+.productimage {
+  max-width: 30%;
+  place-self: center;
+  justify-self: center;
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+}
 
 @media only screen and (max-width: 1600px) {
   .product_list {

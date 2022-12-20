@@ -5,10 +5,14 @@
 }
 .product_page {
   display: inline-grid;
-  grid-template-columns: [col-start] 20% [col-end col-start] 15% [col-end];
+  /* grid-template-columns: [col-start] 20% [col-end col-start] 15% [col-end]; */
   margin: 4rem;
+  align-content: space-between;
+  grid-template-columns: 300px 50px 10px;
   /* grid-template-columns: [first] 40% [line2] 600px; */
+  flex-wrap: wrap;
 }
+
 .filterssection {
   width: 20rem;
   gap: 20px;
@@ -32,7 +36,6 @@
   width: 20rem;
   height: 22rem;
   text-align: center;
-  border-radius: 20px;
   border-radius: 20px;
   box-shadow: 2px 2px 2px rgb(178, 177, 177);
 }
@@ -72,6 +75,47 @@
   padding: 0 20px 0 0;
   margin-bottom: 30px;
 }
+/*CSS FOR DOGPRODUCT DETAILS*/
+
+.detailsContainer {
+  display: flex;
+  justify-content: column;
+  margin: 0 auto;
+  max-width: 50%;
+
+  place-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.title {
+  padding: 50px;
+  place-self: center;
+  justify-self: center;
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+}
+.productimage {
+  max-width: 30%;
+  place-self: center;
+  justify-self: center;
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1600px) {
+  .product_list {
+    display: grid;
+    grid-template-columns: repeat(3, 5fr);
+    gap: 20px;
+  }
+}
 
 @media only screen and (max-width: 600px) {
   .product_page {
@@ -87,6 +131,7 @@
     flex-direction: column;
     width: 100%;
     padding: 20px 0;
+    background-image: none;
   }
   .filters {
     display: flex;

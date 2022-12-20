@@ -43,7 +43,7 @@ export function Dogs() {
         </div>
         <div className={styles["product_list"]}>
           {products.map((product) => (
-            <ProductCard key={product.id} produs={product} />
+            <ProductCard key={product.id} product={product} />
           ))}
         </div>
       </section>
