@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { useState } from "react";
 import { ProductCard } from "./ProductCard";
 import styles from "./Dogs.module.css";
+import { NavLink } from "react-router-dom";
 
 export function Dogs() {
   const [products, setProducts] = useState(null);
@@ -48,12 +49,14 @@ export function Dogs() {
         </div>
       </section>
       <footer className={styles["footer"]}>
-        <div>Recenzii</div>
+        <NavLink className={styles["removeunderline"]} to="/recenzii">
+          Recenzii
+        </NavLink>
         <div>Facebook</div>
         <div>Instagram</div>
         <div>Protectia consumatorilui</div>
         <div>Ofera un voucher cadou</div>
-        <div>Politica Cookiuri</div>
+        <div>Cum sa donezi un animal</div>
       </footer>
     </>
   );

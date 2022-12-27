@@ -76,7 +76,7 @@
   margin-bottom: 30px;
 }
 .footer {
-  background-color: aqua;
+  background-image: url("https://i.imgur.com/yMW6dfz.jpg");
   display: grid;
   grid-template-columns: repeat(2, 500px [col-start]);
   padding: 50px;
@@ -127,6 +127,47 @@
   justify-content: center;
   align-self: center;
   text-align: center;
+}
+
+/* CSS FOR RECENZII */
+.recenzii form {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  margin: 0 auto;
+  padding: 50px;
+  margin: 0 auto;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: rgb(225, 255, 223);
+}
+.recenzii {
+  margin: 100px;
+}
+.recenzii textarea,
+input {
+  background-color: rgb(225, 255, 223);
+}
+.recenzii p {
+  text-align: center;
+}
+.recenzii input,
+textarea {
+  padding: 6px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+.recenzii button {
+  margin: 0 auto;
+  padding: 10px;
+  width: 50%;
+}
+@media only screen and (max-width: 1600px) {
+  .product_list {
+    display: grid;
+    grid-template-columns: repeat(3, 5fr);
+    gap: 20px;
+  }
 }
 
 @media only screen and (max-width: 600px) {

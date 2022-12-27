@@ -108,7 +108,85 @@
   align-self: center;
   text-align: center;
 }
+/*CSS FOR DOGPRODUCT DETAILS*/
 
+.detailsContainer {
+  display: flex;
+  justify-content: column;
+  margin: 0 auto;
+  max-width: 50%;
+  place-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+.buttons > button {
+  background-color: rgba(139, 249, 157, 0.39);
+  padding: 10px;
+  border: 1px outset black;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.buttons > button:hover {
+  background-color: #4caf50;
+  color: white;
+}
+
+.title {
+  padding: 50px;
+  place-self: center;
+  justify-self: center;
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+}
+.productimage {
+  max-width: 30%;
+  place-self: center;
+  justify-self: center;
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+}
+
+/* CSS FOR RECENZII */
+.recenzii form {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  margin: 0 auto;
+  padding: 50px;
+  margin: 0 auto;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: rgb(225, 255, 223);
+}
+.recenzii {
+  margin: 100px;
+}
+.recenzii textarea,
+input {
+  background-color: rgb(225, 255, 223);
+}
+.recenzii p {
+  text-align: center;
+}
+.recenzii input,
+textarea {
+  padding: 6px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+.recenzii button {
+  margin: 0 auto;
+  padding: 10px;
+  width: 50%;
+}
 @media only screen and (max-width: 1600px) {
   .product_list {
     display: grid;
@@ -144,6 +222,53 @@
     border: 1px solid rgb(210, 208, 208);
     width: 17rem;
     height: 22rem;
+    text-align: center;
+  }
+  /* *CSS FOR DOGPRODUCT DETAILS*/
+  .detailsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: column;
+    margin: 0 auto;
+    max-width: 50%;
+    place-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 0;
+    gap: 20px;
+  }
+  .buttons > button {
+    background-color: rgba(139, 249, 157, 0.39);
+    padding: 10px;
+    border: 1px outset black;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .buttons > button:hover {
+    background-color: #4caf50;
+    color: white;
+  }
+
+  .title {
+    padding: 20px;
+    place-self: center;
+    justify-self: center;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    font-size: 100%;
+  }
+  .productimage {
+    max-width: 50%;
+    place-self: center;
+    justify-self: center;
+    justify-content: center;
+    align-self: center;
     text-align: center;
   }
 }

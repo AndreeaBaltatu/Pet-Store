@@ -19,6 +19,7 @@ export function Adoption() {
 
   return (
     <>
+      <h1>Adopt a pet, make a puppy happy!</h1>
       <section className={styles["adopt_page"]}>
         <div className={styles["filterssection"]}>
           <p>Filter after:</p>

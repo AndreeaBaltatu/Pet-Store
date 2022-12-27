@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export function ProductCard({ produs }) {
   return (
     <article className={styles["product_box"]}>
-      <Link to={`/products/${produs.id}`}>
+      <Link to={`/catproducts/${produs.id}`}>
         <img
           className={styles["productImages"]}
           src={produs.poza}
