@@ -11,7 +11,7 @@ export function Nav() {
           <img src="https://i.imgur.com/ViI4EeF.png" alt="logo"></img>
         </a>
         <li>
-          <NavLink className={styles["big"]} to="/account">
+          <NavLink className={styles["big"]} to="/register">
             <big>🏠</big>
           </NavLink>
         </li>

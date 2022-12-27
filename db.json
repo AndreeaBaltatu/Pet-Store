@@ -1,21 +1,21 @@
 {
-  "recenzii": [{}],
+  "recenzii": [
+    {}
+  ],
   "users": [
     {
-      "email": "andreeabaltatu22@gmail.com",
-      "password": "$2a$10$hk6XFLOc7kwcX7q0hch35ONocw9UXeFnQ9mmoroY7/vuVndGDQE1i",
-      "firstName": "Andreea",
-      "lastName": "Baltatu",
-      "id": 2,
-      "poza": "https://i.imgur.com/Pnt9BBG.jpg"
+      "email": "a@a.com",
+      "password": "$2a$10$/uDyiyDYN3fp4bNFDAbx.efceGPyYYzS7o/8Z6g1zNoMnRhLHmxCq",
+      "fName": "andreeea",
+      "lName": "baltatu",
+      "id": 1
     },
     {
-      "email": "a@a.com",
-      "password": "$2a$10$VZ4JsXkvkwFvo9qkvsWyLOmJqOXSPe3vbz4zsvxv1.HBJlD9M.Oe2",
-      "firstName": "Andreea",
-      "lastName": "",
-      "id": 3,
-      "poza": "https://i.imgur.com/1yqliaT.jpg"
+      "email": "b@a.com",
+      "password": "$2a$10$yh6umvfdge5qSQdaMZbI0eea8cn5TqACN2ZpixeQ2FuCEhwTrgShO",
+      "fName": "andreeea",
+      "lName": "baltatu",
+      "id": 2
     }
   ],
   "dogproducts": [

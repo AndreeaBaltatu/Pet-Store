@@ -4,6 +4,7 @@ import { Home, Recenzii } from "./features";
 import { Dogs, DogProductDetails } from "./features/Dogs";
 import { Cats, CatProductDetails } from "./features/Cats";
 import { Adoption } from "./features/Adoption";
+import { Auth } from "./features/Auth/Auth";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/dogs" element={<Dogs />} />
         <Route path="/cats" element={<Cats />} />
         <Route path="/adoption" element={<Adoption />} />
+        <Route path="/register" element={<Auth />} />
         <Route path="/dogproducts/:productId" element={<DogProductDetails />} />
         <Route path="/catproducts/:productId" element={<CatProductDetails />} />
         <Route path="/recenzii" element={<Recenzii />} />
