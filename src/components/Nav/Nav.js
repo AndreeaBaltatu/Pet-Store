@@ -8,31 +8,30 @@ export function Nav() {
       <ul className={styles["navlist1"]}>
         <a href="/home" className={styles["logo"]}>
           {" "}
-          <img src="https://i.imgur.com/ViI4EeF.png" alt="logo"></img>
+          <img
+            src="https://i.imgur.com/ViI4EeF.png"
+            alt="logo"
+            className={styles["logo"]}
+          ></img>
         </a>
         <li>
           <NavLink className={styles["big"]} to="/register">
-            <big>🏠</big>
+            <big>REGISTER</big>
           </NavLink>
         </li>
         <li>
           <NavLink className={styles["big"]} to="/contact">
-            <big>📞</big>
+            <big>CONTACT</big>
           </NavLink>
         </li>
         <li>
           <NavLink className={styles["big"]} to="/login">
-            <big>☻</big>
+            <big>LOGIN</big>
           </NavLink>
         </li>
         <li>
           <NavLink className={styles["big"]} to="/shopping">
             <big> 🛒</big>
-          </NavLink>
-        </li>
-        <li>
-          <NavLink className={styles["big"]} to="/shopping">
-            <big> 😀</big>
           </NavLink>
         </li>
       </ul>

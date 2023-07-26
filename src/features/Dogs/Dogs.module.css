@@ -76,7 +76,8 @@
   margin-bottom: 30px;
 }
 .footer {
-  background-image: url("https://i.imgur.com/yMW6dfz.jpg");
+  /* background-image: url("https://i.imgur.com/yMW6dfz.jpg"); */
+  background-color: #32ab11;
   display: grid;
   grid-template-columns: repeat(2, 500px [col-start]);
   padding: 50px;
