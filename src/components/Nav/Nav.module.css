@@ -14,15 +14,17 @@
 .navlist1 {
   margin-left: auto;
   display: flex;
-  justify-content: space-around;
+  justify-content: right;
   list-style-type: none;
   padding: 20px 0 0 0;
   text-decoration: none;
 }
+
 .navlist2 {
   list-style-type: none;
   display: flex;
   justify-content: center;
+
   gap: 50px;
   padding: 0 0 20px 0;
   font-size: 2rem;
@@ -31,7 +33,6 @@
 
 a > img {
   margin: 0;
-  justify-self: flex-start;
 }
 
 .removeunderline {
@@ -40,6 +41,9 @@ a > img {
 .big {
   font-size: 40px;
   text-decoration: none;
+}
+.navbaar {
+  background-color: rgba(255, 0, 0, 0.184);
 }
 
 @media only screen and (max-width: 720px) {
