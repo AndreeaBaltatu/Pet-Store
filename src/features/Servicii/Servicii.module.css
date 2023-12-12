@@ -1,0 +1,32 @@
+.servicii {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+h1 {
+  margin-top: 5%;
+}
+
+.carduri {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.figure {
+  max-width: 100%;
+}
+.card:hover {
+  width: 50%;
+}
+.card {
+  width: 20%;
+  background: rgb(214, 189, 247);
+  transition: width 2s;
+  margin-bottom: 200px;
+}
+h2 {
+  text-align: center;
+}

@@ -1,0 +1,45 @@
+.figure {
+  max-width: 100%;
+}
+
+.butoane {
+  width: 100%;
+}
+
+.form {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+}
+.form input {
+  padding: 10px;
+}
+.input:hover {
+  background-color: rgb(212, 221, 247);
+}
+.input {
+  border-radius: 5px;
+  border-color: rgb(244, 247, 249);
+  border-width: 3px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  background-color: aliceblue;
+  padding: 20px;
+}
+.submit {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.message {
+  border-radius: 5px;
+  border-color: rgb(244, 248, 252);
+  border-width: 3px;
+  border-style: inset;
+  margin-bottom: 20px;
+}
